@@ -1,4 +1,4 @@
-# api foda
+    # api foda
 
 ## Como executar o projeto
 
@@ -12,7 +12,13 @@
 ``` bash
 npx prisma migrate dev
 ```
-3. Rodar Servidor
+3. Gerar prisma client para comunicação
+
+``` bash
+npx prisma generate
+```
+
+4. Rodar Servidor
 
 ``` bash
    node server.js
